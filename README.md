@@ -1,4 +1,4 @@
-# SimpleLambdaFunctions
+# LambdaFunctionForBusPrediction
 This code is a Node.js AWS Lambda function that retrieves data from the MBTA API (Massachusetts Bay Transportation Authority) and calculates the time difference between the current time and the arrival time of the next bus on route 71 at stop 2023.
 
 The http module from the Node.js standard library is used to send a GET request to the MBTA API endpoint to retrieve predictions for the next two arrivals of route 71 at stop 2023. The moment module is used for date manipulation.
